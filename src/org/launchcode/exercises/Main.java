@@ -17,7 +17,7 @@ public class Main {
         // Toggle off to get the CheckFileExtension() test further down to run/throw Exception.
         System.out.println(Divide(5, 0));
 
-        // Write code here to test 11.2.2 "Test Studend Labs" CheckFileExtension() function to throw an Exception!
+        // Write code here to test 11.2.2 "Test Student Labs" CheckFileExtension() function to throw an Exception!
         // Toggle off/on as needed to test different results and that Exception is thrown.
         System.out.println(CheckFileExtension("Program.java")); // Returns 1 point b/c ends with .java
         System.out.println(CheckFileExtension("")); // Throws Exception Message and returns -1 points b/c No file!
@@ -28,6 +28,8 @@ public class Main {
 
 
     }
+
+    //   Exercises: 11.2.1 "Divide By Zero"
 
     // NOTE: I had to change the return type from <void> to <int> to complete the Chapter 11.2 Exercises.
     public static int Divide(int x, int y) {
@@ -43,9 +45,13 @@ public class Main {
         return x/y; // return the int value of x divided by y
     }
 
+
+    //   Exercises: 11.2.2 "Test Student Labs"
+
     /* NOTE: Had to change the return type from <int> to <void> to run/complete Chapter 11.1 WalkThru to run
-    Main in the Temperature Package. */
-    // Then I had to change the return type from <void> back to <int> to complete the Chapter 11.2 Exercises.
+    Main in the Temperature Package. Then I had to change the return type from <void> back to <int> to complete
+     the Chapter 11.2 Exercises.
+     */
     public static int CheckFileExtension(String fileName) {
 
         // Write code here!
